@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> HTMLforms</h2>
+    <form>
+         <table border="2" style="border-collapse:collapse;border-color:blue">
+        <tr>
+            <th> <lable> first name</lable></th>
+            <td> <input type="text" name="firstname" id="fnm" value="abc"></td>
+        </tr>
+        <tr>
+            <th> <lable> last name</lable></th>
+            <td><input type="text" name="lastname" id="lanm"
+            placeholder="enter last name here"></td>
+        </tr>
+        <tr>
+            <th> <lable>gender </lable></th>
+            <td> <input type="radio" name="gender"  value="male">male &nbsp;&nbsp;
+                 <input type="radio" name="gender"  value="female">female
+                 </td>
+        </tr>
+        <tr>
+            <th> hobbies:</th>
+            <td> 
+                <input type="checkbox" name="chkmusic" value="music">music <br>
+                <input type="checkbox" name="chkdance" value="dance">dance <br>
+                <input type="checkbox" name="chkread" value="read">read <br>
+                <input type="checkbox" name="chksports" value="sports">sports <br>
+                </td>
+            
+        </tr>
+        <tr>
+            <th> qualification</th>
+            <td>
+                <select name="education" id="qual"> 
+                    <option value="SSC">SSC</option>
+                    <option value="hSC">HSC</option>
+                    <option value="GRADUATION">GRADUATION</option>
+                    <option value="POST GRADUATION">POST GRADUATION</option>
+                    </select>
+
+
+
+            </td>
+        </tr>
+        <tr> 
+            <th> other information:</th>
+            <td> <textarea name="info" id="txtinfo" ></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:centre;">
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </td>"
+        </tr>
+    </table>
+</form>
+    
+</body>
+</html>
